@@ -8,10 +8,10 @@ In this repo, I included many of the R scripts, tables, and CSV files that I cre
 1. For that feature, find average value for one participant for entire conversation
 2. Repeat Step 1 for all participants
 3. Calculate partner_diff and non_partner_diff
-3. Create outlier column and categorize outliers
-3. Fill top-level template
-4. Run t-tests
-5. Combine Steps 1-4 into one 'superscript' and repeat for all other features.
+4. Create outlier column and categorize outliers
+5. Fill top-level template
+6. Run t-tests
+7. Combine Steps 1-6 into one 'superscript' and repeat for all other features.
 
 # Installation
 I used RStudio
@@ -19,7 +19,7 @@ https://www.rstudio.com/products/rstudio/download3/
 
 You can open CSVs with RStudio, but feel free to useExcel, LibreOffice, Google docs, or any kind of spreadsheet program.
 
-
+git d
 
 # Description of files
 
