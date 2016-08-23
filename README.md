@@ -5,11 +5,11 @@ During the Spring 2016 semester, I worked with Professor Levitan to study entrai
 In this repo, I included many of the R scripts, tables, and CSV files that I created over the course of the semester. 
 
 For one feature:
-* For that feature, find average value for one participant for entire conversation
-* Repeat Step 1 for all participants
-* Calculate partner_diff and non_partner_diff
-* Run ttests
-* Combine all the methods I wrote in Steps 1-4 into one 'superscript' and repeat for all other features.
+1. For that feature, find average value for one participant for entire conversation
+2. Repeat Step 1 for all participants
+3. Calculate partner_diff and non_partner_diff
+4. Run ttests
+5. Combine Steps 1-4 into one 'superscript' and repeat for all other features.
 
 # Installation
 I used RStudio
