@@ -48,7 +48,8 @@ calcNonPartnerDifferenceDifferenceInMeans<- function(dataset,row)
 
 
 
-
+# Find outliers for a feature X
+# Finding cut-off values for top 100, top 50, bottom 100, bottom 50
 
 findBoundaries <-function(feature_table){
 	sorted_features <- sort(feature_table[,2], decreasing = TRUE)
@@ -141,6 +142,7 @@ print_to_table <-function(one,two,three,four,five,six,table){
 	return(table)
 }
 
+# Adds results of t-tests to table as a new column
 all_ttests<-function(table){
 
 	results_table = data.frame(difference = numeric(),tstatistic = numeric(), pvalue = numeric())
