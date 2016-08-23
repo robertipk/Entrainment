@@ -2,7 +2,7 @@
 
 During the Spring 2016 semester, I worked with Professor Levitan to study entrainment and outlier speech (when a speaker's acoustic-prosodic feature deviates significantly from the norm). We hypothesized that outlier speech is more likely to be perceived and thereby imitated.
 
-In this repo, I included many of the R scripts, tables, and CSV files that I created over the course of the semester. 
+In this repo, I include many of the R scripts, tables, and CSV files that I created. 
 
 ## General Steps
 1. For that feature, find average value for one participant for entire conversation
@@ -18,8 +18,6 @@ I used RStudio
 https://www.rstudio.com/products/rstudio/download3/
 
 You can open CSVs with RStudio, but feel free to useExcel, LibreOffice, Google docs, or any kind of spreadsheet program.
-
-git d
 
 # Description of files
 
