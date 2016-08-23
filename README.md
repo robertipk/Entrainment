@@ -4,7 +4,7 @@ During the Spring 2016 semester, I worked with Professor Levitan to study entrai
 
 In this repo, I included many of the R scripts, tables, and CSV files that I created over the course of the semester. 
 
-For one feature:
+For one feature
 1. For that feature, find average value for one participant for entire conversation
 2. Repeat Step 1 for all participants
 3. Calculate partner_diff and non_partner_diff
@@ -15,7 +15,7 @@ For one feature:
 I used RStudio
 https://www.rstudio.com/products/rstudio/download3/
 
-You can open CSVs with RStudio, but it might be easier to Excel, LibreOffice, Google docs, or any kind of spreadsheet program.
+You can open CSVs with RStudio, but feel free to use Excel, LibreOffice, Google docs, or any kind of spreadsheet program.
 
 
 
@@ -36,5 +36,7 @@ __fdrtest.R__ - FDR (false discovery rate) test, provided by Prof. Levitan
 
 
 # Contributors
-Robert Ip, Professor Rivka Levitan, Min Ma
+* Robert Ip
+* Professor Rivka Levitan
+* Min Ma
 
