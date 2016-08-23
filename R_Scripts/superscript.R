@@ -8,6 +8,7 @@ findValuePartner <- function(dataset, row){
 		return (sub[1,2])
 }
 
+# Find the difference in mean insenity between each pair of partners
 calcPartnerDifference <- function(row){
        difference<- abs(as.numeric(row["self_feature"])-as.numeric(row["partner_feature"]))
        return(difference)
@@ -21,6 +22,9 @@ findDifference<-function(valOne,row)
   val2=as.numeric(as.character(row["self_feature"]))
   return (abs(val1-val2))
 }
+
+# For each speaker, find the differences in mean intensity between that speaker and all non-partners
+
 
 calcNonPartnerDifferenceMeanOfDifferences<- function(dataset,row)
 {
@@ -87,6 +91,9 @@ labelOutliers<- function(outlier_boundaries,row)
 	}
 }
 
+# Apply the labelOutliers function to each row in a top level table 
+# to generate an Outliers column which indicates whether the participant's 
+# mean for that conversation is an outlier
 addOutlierColumn <- function(feature_table, template){
 	boundaries <- findBoundaries(feature_table)
 	outlier_column<-apply(template,MARGIN=1,function(x) labelOutliers(outlier_boundaries=boundaries,x))
@@ -100,6 +107,7 @@ calcNormdiff<-function(row)
 	return(partner_diff/nonpartner_diff)
 }
 
+# Takes an empty top level template as an argument, and populates it
 genTopLevelTable<-function(template,feature_table){
 	template$self_feature<-apply(template,MARGIN=1,function(x) findValueSelf(dataset=feature_table,x))
 	template$partner_feature<-apply(template,MARGIN=1,function(x) findValuePartner(dataset=template,x))
