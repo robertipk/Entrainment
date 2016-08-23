@@ -6,10 +6,10 @@ In this repo, I included many of the R scripts, tables, and CSV files that I cre
 
 For one feature
 1. For that feature, find average value for one participant for entire conversation
-2. Repeat Step 1 for all participants
-3. Calculate partner_diff and non_partner_diff
-4. Run ttests
-5. Combine Steps 1-4 into one 'superscript' and repeat for all other features.
+1. Repeat Step 1 for all participants
+1. Calculate partner_diff and non_partner_diff
+1. Run ttests
+1. Combine Steps 1-4 into one 'superscript' and repeat for all other features.
 
 # Installation
 I used RStudio
