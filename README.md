@@ -8,6 +8,8 @@ In this repo, I included many of the R scripts, tables, and CSV files that I cre
 1. For that feature, find average value for one participant for entire conversation
 2. Repeat Step 1 for all participants
 3. Calculate partner_diff and non_partner_diff
+3. Create outlier column and categorize outliers
+3. Fill top-level template
 4. Run t-tests
 5. Combine Steps 1-4 into one 'superscript' and repeat for all other features.
 
