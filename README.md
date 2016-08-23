@@ -5,7 +5,7 @@ During the Spring 2016 semester, I worked with Professor Levitan to study entrai
 In this repo, I include many of the R scripts, tables, and CSV files that I created. 
 
 ## General Steps
-1. For that feature, find average value for one participant for entire conversation
+1. For one feature, find average value for one participant for entire conversation
 2. Repeat Step 1 for all participants
 3. Calculate partner_diff and non_partner_diff
 4. Create outlier column and categorize outliers
